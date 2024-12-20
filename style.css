@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .offer{
+    }
+}
+.scroll{
+    margin: auto;
+    margin-top: 100px;
+    width: 25px;
+    height: 40px;
+    border-radius: 35%;
+    border: 2px solid white;
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size:100% 100%;
+    overflow: auto;
+    .caption{
+        text-align: center;
+        color: white;
+        margin-top: 90px;
+        p{
+            font-size: 25px;
+        }
+        h1{
+            font-size: 55px;
+            font-weight: bold;
+            margin: 25px 0;
+        }
+    }
+    .btn{
+        
+            padding: 15px;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 20px 5px;
+    }
+    .btn1{
+        background-color: coral;
+        border-width: 0;
+    }
+    .btn2{
+        background-color: transparent;
+        border: 2px solid white;
+    }
+    .navbar{
+       .container{
+        width: 90%;
+        margin: auto;
+        .navlogo{
+            width: 13%;
+            float: left;
+            margin-top: 10px;
+            img{
+                width: 100%;
+            }
+        }
+        .navlink{
+            ul{
+                float: right;
+                margin-top: 10px;
+            }
+            li{
+                list-style-type: none;
+                float: left;
+                padding: 15px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+       }
+    }
+}
+
+.about{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    .about_img{
+        width: 40%;
+        float: left;
+        img{
+            width: 100%;
+        }
+    }
+    .about_caption{
+        width: 40%;
+        text-align: center;
+        float: right;
+        font-size: 20px;
+        margin-top: 30px;
+        color: #686868;
+        margin-right: 45px;
+        p{
+            margin: 20px 0;
+        }
+        h2{
+            color: black;
+        }
+    }
+    .about_link{
+        text-align: left;
+        li{
+            list-style-type: none;
+            padding: 10px;
+        }
+    }
+}
+
+.offer{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    .offer_cap{
+        width: 50%;
+        float: left;
+        text-align: center;
+        margin: 50px 30px;
+        color: #686868;
+        h2{
+            color: black;
+        }
+        .par{
+            margin: 30px 0;
+        }
+    }
+    .offer_img{
+        width: 40%;
+        float: right;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    .gall_caption{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .meals{
+        h5{
+            color: black;
+            margin: 5px;        }
+        p{
+            color: #686868;
+            margin: 5px;
+        }
+        .meal{
+            width: 33%;
+            float: left;
+            padding: 20px;
+            img{
+                width: 100%;
+            }
+            .inner{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.blog{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    .blog_cap{
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 18px;
+    }
+    .blog_list{
+            margin-top: 10px;
+            text-align: left;
+            li{
+                list-style-type: none;
+                padding: 10px;
+            }
+    }
+    .blog_map{
+        width: 40%;
+        float: right;
+        iframe{
+            width: 100%;
+        }
+    }
+}
+
+.contact{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    .contact_row{
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding: 15px;
+        li{
+            list-style-type: none;
+            text-align: left;
+            padding: 7px;
+        }
+    }
+}
+
+.info{
+    margin: auto;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    
+}
